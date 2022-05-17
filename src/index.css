@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EBEDEF;
+}
+
+.App {
+  text-align: center;
+}
+
+.container-navbar {
+  padding: 10px 3rem;
+  height: 60px;
+  align-items: center;
+}
+
+.logo {
+  padding: 5px 0;
+  width: 30px;
+}
+
+.container-navbar span {
+  width: 400px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.container-btns {
+  margin: auto 0;
+}
+
+.container-tickets {
+  height: calc(100vh - 60px);
+  padding: .5rem 5rem;
+  padding-right: 7rem;
+  background-color: #fff;
+}
+
+.container-cardgroup {
+  margin: 2rem;
+}
+
+.container-cardgroup h5 {
+  margin: 0;
+}
+
+.badge {
+  padding: 6px 10px;
+  width: 100px;
+  border-radius: 5px !important;
+}
+
+.style-button {
+  width: 16rem;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+.btn-on {
+  background-color: #475165;
+}
+
+.btn-on:hover {
+  background-color: #343A40;
+}
+
+.btn-util {
+  background-color: #5d6a82;
+}
+
+.btn-util:hover {
+  background-color: #3d4d6b;
+}
+
+.style-card {
+  background-color: #fcfcfc;
+  box-shadow: 3px 3px 3px #c3c3c3;
+}
+
+.style-checkbox {
+  margin: auto 0;
+  margin-left: 30px;
+  color: #000;
+}
+
+.style-checkbox > input:checked {
+  background-color: #475165;
+}
+
+.style-status {
+  background-color: #DBF2E3 !important;
+  border-radius: 2px;
+}
+
+.back-success {
+  background-color: #61a488;
+}
+
+.back-danger {
+  background-color: #c66a7e;
+}
+
+.text-left {
+  text-align: left;
+}
